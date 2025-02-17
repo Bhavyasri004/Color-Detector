@@ -23,11 +23,6 @@ Colors.csv – a file that contains our dataset.
 The pandas library is very useful when we need to perform various operations on data files like CSV. pd.read_csv() reads the CSV file and loads it into the pandas DataFrame. We have assigned each column with a name for easy accessing.
 ## 3. Set a mouse callback event on a window
 First, we created a window in which the input image will display. Then, we set a callback function which will be called when a mouse event happens.
-
-cv2.namedWindow('image')
-cv2.setMouseCallback('image',draw_function)
-With these lines, we named our window as ‘image’ and set a callback function which will call the draw_function() whenever a mouse event occurs.
-
 ## 4. Create the draw_function
 It will calculate the rgb values of the pixel which we double click. The function parameters have the event name, (x,y) coordinates of the mouse position, etc. In the function, we check if the event is double-clicked then we calculate and set the r,g,b values along with x,y positions of the mouse.
 
