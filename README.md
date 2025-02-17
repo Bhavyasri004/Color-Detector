@@ -1,2 +1,2 @@
-**Project in Python – Colour Detection using Pandas & OpenCV**
+# Project in Python – Colour Detection using Pandas & OpenCV
 
